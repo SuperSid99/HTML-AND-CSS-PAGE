@@ -1,0 +1,158 @@
+/*
+
+#fff
+
+#E0E0E0
+
+#C0C0C0
+
+#000
+
+*/
+
+*{
+    margin: =0;
+    padding: =0;
+    box-sizing: border-box; 
+}
+
+
+html{
+    background-color: #e0e0e0;
+    color: #fff;
+    font-family: 'Lato','Arial', sans-serif;
+    font-weight: 00;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    
+}
+
+.row{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+
+/*----------------------
+-----REUSABLE STUFF-----
+----------------------*/
+
+
+
+h1{
+    margin: 0;
+    color: #fff;
+    font-size: 300%;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    
+}
+
+h2,h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+h2{
+    font-size: 200%;
+}
+
+h3{
+    font-size: 100%;
+}
+
+h4{
+    color: #000;
+    font-size: 70%;
+}
+
+
+.social_media{
+    display: flex;
+    float: right;
+    list-style: none;
+}
+
+/*----------------------
+--------MAIN PAGE-------
+----------------------*/
+
+.header{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+.main_heading{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+        
+    
+}
+
+.events{
+    margin-top: 30px;
+}
+
+.event_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+
+.event_pic{
+    width: 100%;
+    margin: 0;
+}
+.event_pic img{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    
+}
+
+.event_1{
+    width: 100%
+}
+
+.secret{
+    text-align: center;
+}
+
+/*----------------------
+--------BUTTONS---------
+----------------------*/
+
+
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+
+.btn_icon:link,
+.btn_icon:visited
+{  
+    font-size: 130%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.btn_icon:hover,
+.btn_icon:active{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+}
